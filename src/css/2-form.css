@@ -1,0 +1,17 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  gap: 10px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+button {
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 4px;
+}

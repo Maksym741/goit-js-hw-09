@@ -75,4 +75,7 @@ const markup = images.reduce((html, { preview, original, description }) => {
 `);
 }, '');
 gallery.innerHTML = markup;
-const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionsDelay: 500,
+});
